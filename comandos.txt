@@ -1,1 +1,4 @@
 1º -grep -A 25 -B 1 "SEMANAS" consumos.txt > file1.txt
+2º -grep -A 7 "EDIFICIO A" file1.txt | grep -v "\*" > a
+   -grep -A 7 "EDIFICIO D" file1.txt | grep -v "\*" > d
+   -grep -A 5 "SEMANAS" file1.txt | grep -v "\*" > s
