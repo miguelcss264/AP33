@@ -2,3 +2,10 @@
 2º -grep -A 7 "EDIFICIO A" file1.txt | grep -v "\*" > a
    -grep -A 7 "EDIFICIO D" file1.txt | grep -v "\*" > d
    -grep -A 5 "SEMANAS" file1.txt | grep -v "\*" > s
+3º -grep "L" totales.txt >> file2.txt
+   -grep -w L consumos.txt >> file2.txt
+   -grep "sem1" totales.txt >> file2.txt
+   -grep "sem2" totales.txt >> file2.txt
+   -grep "sem3" totales.txt >> file2.txt
+   -grep "sem4" totales.txt >> file2.txt
+   -grep "sem5" totales.txt >> file2.txt
