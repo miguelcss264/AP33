@@ -1,0 +1,1 @@
+1º -grep -A 25 -B 1 "SEMANAS" consumos.txt > file1.txt
